@@ -14,7 +14,6 @@ public abstract class Rezervacija implements Comparable<Rezervacija>{
         }
     }
 
-
     public Rezervacija(String nazivSale, String predavac, LocalTime pocetak, LocalTime kraj) throws NeispravanFormatRezervacije {
         validirajVrijeme(pocetak, kraj);
         this.nazivSale = nazivSale;
